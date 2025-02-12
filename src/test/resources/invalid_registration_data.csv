@@ -1,0 +1,5 @@
+Test Case,First Name,Last Name,Email,Password,Expected Error
+Empty fields,"","","","",All fields are required
+Invalid email,John,Doe,user@com,SecurePass123!,Invalid email format
+Invalid email,Jane,Smith,invalidmail,SecurePass123!,Invalid email format
+Invalid email,Mike,Brown,test@domain,SecurePass123!,Invalid email
